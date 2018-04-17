@@ -12,7 +12,7 @@ public class Queen8 {
      * rows保存第n行放置棋子的列数i(n,i属于[0,7])
      */
     private int num = 0;
-    private int QUEENS = 8;
+    private final int QUEENS = 8;
     private int[] rows = new int[QUEENS];
 
     public static void main(String[] args) {
